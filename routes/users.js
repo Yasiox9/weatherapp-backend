@@ -3,7 +3,7 @@ var router = express.Router();
 
 const fetch = require('node-fetch');
 const Users = require('../models/users');
-const { checkBody } = require("../modules/check.Body")
+const { checkBody } = require("../modules/checkBody")
 
 // Création d'un nouvel utilisateur:
 
