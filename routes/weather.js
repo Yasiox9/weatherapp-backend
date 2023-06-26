@@ -66,6 +66,6 @@ router.delete("/:cityName", (req, res) => {
       res.json({ result: false, error: "City not found" });
     }
   });
-});
+}); //
 
 module.exports = router;
