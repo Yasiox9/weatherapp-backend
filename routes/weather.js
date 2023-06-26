@@ -36,6 +36,7 @@ router.post('/', (req, res) => {
 });
 
 router.get('/', (req, res) => {
+	console.log("test");
 	City.find().then(data => {
 		res.json({ weather: data });
 	});
